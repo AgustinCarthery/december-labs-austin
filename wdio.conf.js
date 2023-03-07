@@ -202,7 +202,7 @@ export const config = {
 	 * @param {Object}         browser      instance of created browser/device session
 	 */
 	before: function (capabilities, specs) {
-		browser.setWindowSize(1800, 2000);
+		browser.setWindowSize(1440, 1080);
 	},
 	/**
 	 * Runs before a WebdriverIO command gets executed.
