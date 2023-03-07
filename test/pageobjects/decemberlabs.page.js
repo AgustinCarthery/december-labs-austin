@@ -3,7 +3,7 @@ import Page from './page.js';
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class HomePage extends Page {
+class DecemberLabs extends Page {
 	/**
 	 * define selectors using getter methods
 	 */
@@ -32,4 +32,4 @@ class HomePage extends Page {
 	}
 }
 
-export default new HomePage();
+export default new DecemberLabs();
